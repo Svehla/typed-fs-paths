@@ -30,9 +30,9 @@ const paths = typedFSPaths('app', {
 
 ### 2. get file path based on the file system model
 
-![type inferring 1]('./imgs/1.png)
-![type inferring 1]('./imgs/2.png)
-![type inferring 1]('./imgs/3.png)
+![type inferring 1](./imgs/1.png)
+![type inferring 1](./imgs/2.png)
+![type inferring 1](./imgs/3.png)
 
 ```ts
 const settingsJson = paths.data.app1["settings.json"]

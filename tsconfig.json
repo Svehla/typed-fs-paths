@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [],
+    "lib": ["ES2019"],
     "allowJs": true,
     "downlevelIteration": true,
     "skipLibCheck": true,

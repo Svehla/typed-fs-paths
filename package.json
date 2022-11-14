@@ -9,6 +9,7 @@
     "build": "tsc",
     "clean": "tsc --build --clean",
     "prepare": "npm run clean && npm run build",
+    "ts:check-types": "tsc",
     "dev": "nodemon --watch '*.ts' --exec 'ts-node' tests/test.ts",
     "test:watch": "nodemon --watch '*.ts' --exec 'ts-node' tests/test.ts",
     "publish-lib": "npm run prepare && npm publish"
